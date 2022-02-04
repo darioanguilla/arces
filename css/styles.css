@@ -1,11 +1,29 @@
 h1 {
   color: red;
+  float: none;
 }
 p {
   color: rgb(82, 93, 243);
   font-size: 20px;
 }
 
-ul {
+#menu ul {
   font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+  display: inline-block;
+  padding: 30px;
+}
+
+#menu a {
+  /* display: block; */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu {
+  background-color: #dddddd;
 }
