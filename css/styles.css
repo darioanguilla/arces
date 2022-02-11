@@ -27,3 +27,28 @@ p {
 #menu {
   background-color: #dddddd;
 }
+
+span.ingredient {
+  color: #f00;
+}
+
+table{
+  border: 10px solid rgb(243, 74, 74);
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th{
+  border: 1px solid rgb(9, 99, 21);
+  padding: 10px;
+  /*vertical-align: middle;*/
+  text-align: center;
+}
+
+th{
+  background-color: #3fc0e7;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
